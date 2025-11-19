@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Header from "./components/header";
+// import Header from "./components/header";
 import Navigation from "./components/Navigation";
 import Hero from "./components/hero";
 import Services from "./components/Services";
@@ -20,9 +20,6 @@ function App() {
     <Router>
       <div className="font-jakarta min-h-screen bg-[#F2F6FC]">
 
-        {/* Global Header */}
-        <Header />
-
         <main>
           {/* Sticky Navigation under header */}
           <Navigation />
@@ -35,9 +32,9 @@ function App() {
               element={
                 <>
                   <Hero />
-                  <Services />
-                  <About />
                  
+                  <About />
+                  <Services />
                   <Courses />
                    
                   <Books />

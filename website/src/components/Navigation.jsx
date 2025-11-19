@@ -20,8 +20,8 @@ export default function Navigation() {
           {/* Brand */}
           <div className="flex items-center">
             <span className="text-2xl font-bold text-white">
-              TheCloud
-              <span className="text-yellow-400">Advisory</span>
+              Pravin
+              <span className="text-yellow-400">Mishra</span>
             </span>
           </div>
 
